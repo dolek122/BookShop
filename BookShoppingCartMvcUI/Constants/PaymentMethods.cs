@@ -1,6 +1,8 @@
 ﻿namespace BookShoppingCartMvcUI.Constants
 {
-    public class PaymentMethods
+    public enum PaymentMethods
     {
+        COD=1,
+        Online
     }
 }
